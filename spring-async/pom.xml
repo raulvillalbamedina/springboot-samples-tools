@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>spring-async</artifactId>
+	<packaging>jar</packaging>
+	<name>spring-async</name>
+	<description>spring async</description>
+	<parent>
+		<groupId>es.rvillalba.spring</groupId>
+		<artifactId>springboot-samples-tools</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>es.rvillalba.spring</groupId>
+			<artifactId>spring-unit-test</artifactId>
+			<version>${project.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
